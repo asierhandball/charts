@@ -113,7 +113,7 @@ falco:
   timeFormatISO8601: false
 
   # Whether to output events in json or text
-  jsonOutput: false
+  jsonOutput: true
 
   # When using json output, whether or not to include the "output" property
   # itself (e.g. "File below a known binary directory opened for writing
@@ -188,7 +188,7 @@ falco:
   # Also, the file will be closed and reopened if Falco is signaled with
   # SIGUSR1.
   fileOutput:
-    enabled: false
+    enabled: true
     keepAlive: false
     filename: ./events.txt
 
